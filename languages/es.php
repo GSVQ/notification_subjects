@@ -10,7 +10,7 @@ $spanish = array(
     'notification_subjects:group' => "%s",
     'notification_subjects:option:allow' => "Usar asunto descriptivo",
     'notification_subjects:option:default' => "Usar asunto por defecto",
-    'notification_subjects:option:deny' => "Desactivar aaaaaaaaaaaa notificaciones",
+    'notification_subjects:option:deny' => "Desactivar notificaciones",
     'notification_subjects:subtype' => "Subtipo",
     'notification_subjects:untitled' => "Sin título",
 	
