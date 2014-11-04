@@ -83,7 +83,7 @@ function notification_subjects_build_title($event, ElggObject $object){
   $container = $object->getContainerEntity();
   $group = '';
   if(elgg_instanceof($container, 'group')){
-    $group = elgg_echo('notification_subjects:group', array(elgg_get_exerpt($container->name, 45)));
+    $group = elgg_echo('notification_subjects:group', array(elgg_get_excerpt($container->name, 45)));
   }
   
   // add in the title of the object
